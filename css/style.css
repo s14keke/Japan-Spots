@@ -82,10 +82,8 @@ justify-content: left;
 .dest_con{
     display: flex;
     padding: 10px;
-    border: solid 5px crimson;
     align-items: center;
     margin-bottom: 10px;
-    flex-wrap: wrap;
 }
 
 .dest_con a{
