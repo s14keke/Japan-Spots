@@ -84,6 +84,13 @@ justify-content: left;
     padding: 10px;
     align-items: center;
     margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+.dest_con p{
+    display: inline-block;
+    text-align: end;
+    font-size: 21px;
 }
 
 .dest_con a{
