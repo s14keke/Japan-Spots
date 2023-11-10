@@ -1,0 +1,39 @@
+
+    .slider{
+        padding: nth($paddings, 6);
+        border: solid nth($tamanos, 2) $bgcolor-gnl;
+        margin: nth($tamanos, 3);
+    }
+
+    .dest_con{
+        display: flex;
+        padding: nth($paddings,3);
+        align-items: center;
+        margin-bottom: nth($tamanos, 3);
+        flex-wrap: wrap;
+
+        p{
+            display: inline-block;
+            text-align: end;
+            font-size: 21px;
+        }
+
+        a{
+            display: inline-block;
+            padding: nth($paddings, 3) nth($paddings, 5);
+            margin: nth($tamanos, 3);
+            background-color: $bgcolor-gnl;
+            font-size: 15px;
+            border-radius: nth($tamanos, 2);
+            color: $color-w;
+        }
+
+        .carta{
+            display: grid;
+            width: 18rem;
+            border: nth($tamanos, 2) solid $bgcolor-gnl;
+            padding: nth($paddings, 3);
+            text-align: center;
+            margin: 2rem;
+        }
+    }

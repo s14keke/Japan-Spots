@@ -1,0 +1,11 @@
+.testimonial {
+    border: nth($tamanos, 1) solid #ccc;
+    padding: nth($paddings, 5);
+    margin: nth($tamanos, 5);
+    border-radius: nth($tamanos, 2);
+
+    p {
+        font-style: italic;
+    }
+}
+

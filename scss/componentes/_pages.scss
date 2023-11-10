@@ -1,0 +1,54 @@
+#titulo_dest{
+    margin: nth($tamanos, 6);
+    padding: nth($paddings, 2);
+
+    .letrachica{
+        font-size: small;
+    }
+
+    .letramediana{
+        font-size: medium;
+    }
+
+    .letratitulo{
+        font-size: 35px;
+        color: $bgcolor-gnl;
+    }
+}
+
+#intro{
+    margin-bottom: nth($tamanos, 4);
+
+    img{
+        max-width: 100%;
+        max-height: 100%;
+        margin-bottom: nth($tamanos, 3);
+    }
+
+    .textointro{
+        border: solid nth($paddings, 2);
+        border-radius: nth($paddings, 3);
+        margin: nth($tamanos, 3);
+        padding: nth($paddings, 3);
+        font-size: nth($tamanos, 5);
+    }
+    
+    iframe{
+        display: flex;
+        justify-content:flex-start;
+        margin: nth($tamanos, 3);
+        padding: nth($paddings, 3);
+        width: 80%;
+        height: 40rem;
+    }
+}
+
+.boton_compra{
+    display: inline-block;
+    align-items: center;
+    padding: nth($paddings, 3) nth($paddings, 5);
+    margin: nth($tamanos, 3);
+    background-color: $bgcolor-gnl; 
+    font-size: nth($tamanos, 4); 
+    border-radius: nth($tamanos, 4);
+}

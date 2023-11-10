@@ -1,0 +1,22 @@
+.titulos{
+    color: $color-gnl;
+    text-align: left;
+    }
+
+.textos{
+    text-decoration: none;
+    color: $color-gnl;
+}
+.subtitulos{ 
+    margin: nth($tamanos, 5);
+    text-align: center;
+    font-size: nth($tamanos, 6);
+    }
+    
+
+.boton2{
+    border: nth($tamanos , 1) solid color($color-gnl);
+    background-color: $bgcolor-gnl;
+    font-size: nth($tamanos, 4);
+    padding: 0 5px 0 5px;
+}

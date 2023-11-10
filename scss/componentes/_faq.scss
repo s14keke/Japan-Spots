@@ -1,0 +1,16 @@
+.faq {
+    margin: nth($tamanos, 5);
+    padding: nth($paddings, 3);
+    border: nth($tamanos, 2) solid $bgcolor-gnl;
+    border-radius: nth($tamanos, 5);
+
+    .question {
+        font-weight: bold;
+        font-size: larger;
+    }
+    
+    .answer{
+        font-weight: lighter;
+        font-size: medium;
+    }
+}

@@ -1,0 +1,23 @@
+form {
+    max-width: 600px;
+    margin: 0 auto;
+
+    .grupo-form {
+        margin-bottom: nth($tamanos, 5);
+
+        label {
+            display: block;
+            font-weight: bold;
+        }
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: nth($paddings, 3);
+            margin-top: nth($tamanos, 2);
+            border: nth($tamanos, 1) solid #ccc;
+            border-radius: 4px;
+        }
+        
+    }
+}
