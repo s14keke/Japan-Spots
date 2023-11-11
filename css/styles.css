@@ -10,6 +10,8 @@ body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
+/* ----------------- Textos -----------------  */
+
 .titulos {
   color: rgb(0, 0, 0);
   text-align: left;
@@ -26,6 +28,8 @@ body {
   font-size: 30px;
 }
 
+/* ----------------- Botones -----------------  */
+
 .boton2 {
   border: 1px solid color(rgb(0, 0, 0));
   background-color: rgb(220, 20, 60);
@@ -33,9 +37,50 @@ body {
   padding: 0 5px 0 5px;
 }
 
+.flotar {
+  transition: 0.5s, color 0.1s;
+  -webkit-transition: 0.5s, color 0.1s;
+  -moz-transition: 0.5s, color 0.1s;
+}
+
+.flotar:hover {
+  box-shadow: 0 8px 8px 0 #000000, 0 8px 8px 0 #000000;
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  -moz-transform: translate(0px, 5px);
+}
+
+.creci {
+  transition: 0.5s, color 0.1s;
+  -webkit-transition: 0.5s, color 0.1s;
+  -moz-transition: 0.5s, color 0.1s;
+}
+
+.creci:hover {
+  transform: scale3d(1.5, 1.5, 0.3);
+  -webkit-transform: scale3d(1.5, 1.5, 0.3);
+  -moz-transform: scale3d(1.5, 1.5, 0.3);
+}
+
+.trasla {
+  transition: 0.5s, color 0.1s;
+  -webkit-transition: 0.5s, color 0.1s;
+  -moz-transition: 0.5s, color 0.1s;
+}
+
+.trasla:hover {
+  transform: translatex(20px);
+  -webkit-transform: translatex(20px);
+  -moz-transform: translatex(20px);
+}
+
+/* ----------------- Header -----------------  */
+
 .header-principal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: rgb(165, 42, 42);
-  padding: 20px;
   border: 5px solid rgb(0, 0, 0);
 }
 .header-principal h1 {
@@ -43,8 +88,9 @@ body {
   justify-content: left;
 }
 .header-principal .icono {
-  width: 100px;
+  width: 90px;
   justify-content: center;
+  margin: 10px 0 10px 0;
 }
 .header-principal .menu_nav {
   display: flex;
@@ -53,9 +99,10 @@ body {
   margin-bottom: 0;
 }
 .header-principal ul li {
-  display: grid;
   padding: 0em 10em 0em 10em;
 }
+
+/* ----------------- Main -----------------  */
 
 .slider {
   padding: 30px;
@@ -142,6 +189,8 @@ body {
   border-radius: 15px;
 }
 
+/* ----------------- Contacto -----------------  */
+
 form {
   max-width: 600px;
   margin: 0 auto;
@@ -163,6 +212,8 @@ form .grupo-form textarea {
   border-radius: 4px;
 }
 
+/* ----------------- Faq -----------------  */
+
 .faq {
   margin: 20px;
   padding: 10px;
@@ -178,6 +229,8 @@ form .grupo-form textarea {
   font-size: medium;
 }
 
+/* ----------------- Recomend -----------------  */
+
 .testimonial {
   border: 1px solid #ccc;
   padding: 20px;
@@ -188,12 +241,16 @@ form .grupo-form textarea {
   font-style: italic;
 }
 
+/* ----------------- Footer -----------------  */
+
 #foot {
+  display: flex;
+  flex-direction: column;
   background-color: rgb(165, 42, 42);
   padding: 20px;
 }
 #foot ul li {
-  display: inline-block;
+  display: inline-flex;
   padding: 5px;
 }
 #foot img {
@@ -203,6 +260,7 @@ form .grupo-form textarea {
   max-width: 100%;
   max-height: 100%;
   height: auto;
+  float: right;
 }
 
 /*# sourceMappingURL=styles.css.map */

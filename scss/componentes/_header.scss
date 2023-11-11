@@ -1,6 +1,8 @@
 .header-principal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: $bgcolor-header;
-    padding: 20px;
     border: 5px solid $color-gnl;
 
     h1{
@@ -9,8 +11,9 @@
     }
 
     .icono{
-        width: 100px;
+        width: 90px;
         justify-content: center;
+        margin: 10px 0 10px 0;
     }
 
     .menu_nav{
@@ -22,7 +25,6 @@
 
     ul{
         li{
-            display: grid;
             padding: 0em 10em 0em 10em; 
         }
     }
