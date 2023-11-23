@@ -1,32 +1,44 @@
-.header-principal{
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 70px;
+    border: solid 5px $color-gnl;
+    background-color: $bgcolor-header;
+    padding: 0 10px 0 40px;
+}
+
+.logo{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    background-color: $bgcolor-header;
-    border: 5px solid $color-gnl;
+    margin: 15px 0 15px 0;
 
-    h1{
-        display: inline;
-        justify-content: left;
+    img{
+        height: 90px;
+        margin-right: 15px;
     }
 
-    .icono{
-        width: 90px;
-        justify-content: center;
-        margin: 10px 0 10px 0;
-    }
-
-    .menu_nav{
-        display: flex;
-        padding: 0;
-        justify-content: center;
-        margin-bottom: 0;
-    }
-
-    ul{
-        li{
-            padding: 0em 10em 0em 10em; 
-        }
+    h1:hover{
+        color: white;
     }
 }
 
+nav{
+    padding-bottom: 15px;
+
+    a{
+        padding: 0 15px 0 15px;
+    }
+
+    a:hover{
+        color: white;
+    }
+}
+
+@media (min-width: 576px){
+    header{
+        flex-direction: row;
+        padding: 0 30px;
+        justify-content: space-between;
+    }
+}

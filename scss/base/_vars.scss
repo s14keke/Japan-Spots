@@ -3,15 +3,26 @@
     margin: 0;
     list-style: none;
     text-decoration: none;
+    box-sizing: border-box;
 }
-
 $bgcolor-header: rgb(165, 42, 42);
 $color-gnl: rgb(0, 0, 0);
 $bgcolor-gnl: rgb(220, 20, 60);
 $color-w: rgb(255, 255, 255);
+
+a{
+    text-decoration: none;
+    color: $color-gnl;
+}
 
 body{
     background-color: rgb(255, 235, 205);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+
+ul{
+    li{
+        padding: 0em 10em 0em 10em; 
+    }
+}

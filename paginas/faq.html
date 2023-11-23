@@ -11,34 +11,32 @@
            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
            crossorigin="anonymous"></script>
        <!-- mi stylesheet -->
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="icon" href="../img/favicon.png">
     <title>Preguntas Frecuentes</title>
 </head>
 
 <body>
-    <header class="container-fluid header-principal">
-        <img class="icono" src="../img/favicon.png" alt="">
-        <a class="textos trasla" href="../index.html">
-            <h1 class="titulos">Japan Spots</h1>
+    
+    <header>
+        <a href="../index.html" class="logo">
+        <img src="../img/favicon.png" alt="Logo dibujo de un Daruma enojado representando a la marca">
+        <h1 class="titulos">Japan Spots</h1>
         </a>
-        <nav class="row">
-            <ul class="navbar navbar-expand-lg menu_nav">
-                <li><a class="textos flotar" href="../paginas/faq.html">FAQ</a></li>
-                <li><a class="textos flotar" href="../paginas/contacto.html">Contacto</a></li>
-                <li>
-                    <button class="boton2 flotar" type="button" data-bs-toggle="dropdown">
-                        Destinos
-                    </button>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="../paginas/tokyo.html">Tokyo</a>
-                        <a class="dropdown-item" href="../paginas/osaka.html">Osaka</a>
-                        <a class="dropdown-item" href="../paginas/kyoto.html">Kyoto</a>
-                    </div>
-                </li>
+        <nav>
+          <a href="./faq.html">FAQ</a>
+          <a href="./contacto.html">Contacto</a>
+            <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+              Destinos
+            </a>
+          
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./tokyo.html">Tokyo</a></li>
+              <li><a class="dropdown-item" href="./osaka.html">Osaka</a></li>
+              <li><a class="dropdown-item" href="./kyoto.html">Kyoto</a></li>
             </ul>
-        </nav>
-    </header>
+      </header>
 
     <main>
         <h1 class="subtitulos">Preguntas Frecuentes</h1>
@@ -125,21 +123,37 @@
         </div>
     </main>
 
-    <footer id="foot">
-        <p><a class="textos" href="./recomend.html">Testimonios de Clientes</a></p>
-        <div>
-            <p>Contactanos por nuestras redes sociales!</p>
-            <ul>
-                <li><a href=""><img src="../img/whatsapp.png" alt=""></a></li>
-                <li><a href=""><img src="../img/instagram.png" alt=""></a></li>
-                <li><a href=""><img src="../img/facebook.png" alt=""></a></li>
-            </ul>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54329.73189538386!2d-60.7808599!3d-31.671936099999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b5a878d134ce5f%3A0x8e81a69f28215923!2sSanto%20Tom%C3%A9%2C%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1694894515881!5m2!1ses-419!2sar"
-                style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+          <div class="box">
+            <figure>
+              <a href="#">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54329.73189538386!2d-60.7808599!3d-31.671936099999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b5a878d134ce5f%3A0x8e81a69f28215923!2sSanto%20Tom%C3%A9%2C%20Santa%20Fe!5e0!3m2!1ses!2sar!4v1700711865700!5m2!1ses!2sar"
+                  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </a>
+            </figure>
+          </div>
+          <div class="box">
+            <h2>SOBRE NOSOTROS</h2>
+            <p>Japan Spots es una agencia especializada en viajes a Japón, ofrecemos viajes personalizados únicos y experiencias inspiradoras. Proporcionanamos tours privados y guías locales para que su experiencia de viaje sea lo más
+              fluida posible.</p>
+              <a href="./recomend.html">Aqui puede ver experiencias de varios usuarios</a>
+          </div>
+          <div class="box">
+            <h2>SIGUENOS</h2>
+            <div class="red-social">
+              <a href="#" class="fa fa-facebook"></a>
+              <a href="#" class="fa fa-instagram"></a>
+              <a href="#" class="fa fa-twitter"></a>
+              <a href="#" class="fa fa-youtube"></a>
+            </div>
+          </div>
         </div>
-    </footer>
+        <div class="grupo-2">
+          <small>&copy; 2023 <b>Jeremias Schujman</b> - Todos los Derechos Reservados.</small>
+        </div>
+      </footer>
 
 </body>
 
